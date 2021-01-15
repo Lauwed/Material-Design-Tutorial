@@ -1,47 +1,41 @@
 {
-  "name": "webpack-tuto",
+  "name": "Material-Design-Tutorial",
   "version": "1.0.0",
-  "description": "",
+  "description": "Choose the way you want",
   "main": "index.js",
+  "dependencies": {
+    "@material/button": "^9.0.0",
+    "@material/ripple": "^9.0.0",
+    "apexcharts": "^3.23.1",
+    "css-loader": "^5.0.1",
+    "extract-loader": "^5.1.0",
+    "file-loader": "^6.2.0",
+    "sass": "^1.32.4",
+    "sass-loader": "^10.1.1",
+    "webpack": "^5.14.0",
+    "webpack-cli": "^4.3.1",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "autoprefixer": "^10.2.1",
+    "babel-loader": "^8.2.2",
+    "postcss-loader": "^4.1.0"
+  },
   "scripts": {
-    "build": "webpack --config=webpack.config.prod.js",
-    "build-dev": "webpack --config=webpack.config.dev.js",
-    "start": "webpack serve --config=webpack.config.dev.js --open 'Google Chrome'"
+    "build": "webpack",
+    "start": "webpack serve"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Lauwed/webpack-tuto.git"
+    "url": "git+https://github.com/Lauwed/Material-Design-Tutorial.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Lauwed/webpack-tuto/issues"
+    "url": "https://github.com/Lauwed/Material-Design-Tutorial/issues"
   },
-  "homepage": "https://github.com/Lauwed/webpack-tuto#readme",
-  "dependencies": {
-    "webpack": "^5.11.1",
-    "webpack-cli": "^4.3.1"
-  },
-  "devDependencies": {
-    "@babel/core": "^7.12.10",
-    "@babel/preset-env": "^7.12.11",
-    "autoprefixer": "^10.1.0",
-    "babel-loader": "^8.2.2",
-    "clean-webpack-plugin": "^3.0.0",
-    "css-loader": "^5.0.1",
-    "extract-text-webpack-plugin": "^3.0.2",
-    "file-loader": "^6.2.0",
-    "html-webpack-plugin": "^4.5.0",
-    "mini-css-extract-plugin": "^1.3.3",
-    "node-sass": "^5.0.0",
-    "optimize-css-assets-webpack-plugin": "^5.0.4",
-    "sass-loader": "^10.1.0",
-    "style-loader": "^2.0.0",
-    "terser-webpack-plugin": "^4.2.3",
-    "url-loader": "^4.1.1",
-    "webpack-dashboard": "^3.2.1",
-    "webpack-dev-server": "^3.11.1",
-    "webpack-merge": "^5.7.3"
-  }
+  "homepage": "https://github.com/Lauwed/Material-Design-Tutorial#readme"
 }
